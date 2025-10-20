@@ -1,0 +1,52 @@
+@import 'tailwindcss';
+
+:root {
+  --background: #faf9f6; /* creamy white */
+  --foreground: #4a4a4a; /* slate gray */
+
+  /* make fonts available everywhere */
+  --font-heading: var(--font-dancing);
+  --font-sans: var(--font-poppins);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  /* map to Tailwind classes */
+  --font-heading: var(--font-caveat);
+  --font-sans: var(--font-poppins);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a; /* very dark gray */
+    --foreground: #ededed; /* light gray */
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes scroll-x {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll-x {
+  animation: scroll-x 25s linear infinite;
+}
+
+.animate-scroll-x:hover {
+  animation-play-state: paused;
+}
