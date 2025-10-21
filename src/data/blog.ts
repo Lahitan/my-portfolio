@@ -18,7 +18,7 @@ export const blogs: BlogPost[] = [
     excerpt:
       'Have you ever wondered what "version" (v3.8.1) means? You’ve probably seen it in apps, promoting you to update to the newest versions...',
     link: 'https://medium.com/@harunatawa111/getting-started-git-and-github-simplified-for-beginners-e57b60758555',
-    image: './blog-images/git-github-blog.png',
+    image: '/blog-images/git-github-blog.png',
     alt: 'Git and Github Blog Image',
     date: 'Dec 21, 2023',
     readTime: '5 min read',
@@ -30,7 +30,7 @@ export const blogs: BlogPost[] = [
     excerpt:
       'The world is fast becoming global, and the digital era has made it easier for us to connect...',
     link: 'https://lahitan.hashnode.dev/accessibility-for-designers-and-developers',
-    image: './blog-images/accessability.png',
+    image: '/blog-images/accessability.png',
     alt: 'Accessibility Blog Image',
     date: 'Jul 15, 2025',
     readTime: '5 min read',
@@ -42,7 +42,7 @@ export const blogs: BlogPost[] = [
     excerpt:
       ' Perhaps you think it is impossible to succeed in the tech community...',
     link: 'https://lahitan.hashnode.dev/managing-imposter-syndrome-as-a-techie',
-    image: './blog-images/managing-imposter-syndrom.png',
+    image: '/blog-images/managing-imposter-syndrom.png',
     date: 'May 23, 2023',
     readTime: '3 min read',
   },
