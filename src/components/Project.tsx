@@ -9,42 +9,42 @@ export default function Project() {
       description:
         'A sleek personal portfolio built with Next.js, Tailwind, and TypeScript.',
       link: 'https://web-fleet-app.netlify.app/',
-      image: '/project-images/web-fleet.png',
+      image: '/project-images/web-fleet.PNG',
     },
     {
       title: 'Interactive Credit Card',
       description:
         'An interactive credit card form that updates in real-time as you type.',
       link: 'https://interactive-assignment.netlify.app/',
-      image: '/project-images/interactive card.png',
+      image: '/project-images/interactive card.PNG',
     },
     {
       title: 'Pleasure Park',
       description:
         'A fun amusement park website with vibrant design and engaging content.',
       link: 'https://pleasure-park.netlify.app',
-      image: '/project-images/plesure park.png',
+      image: '/project-images/plesure park.PNG',
     },
     {
       title: 'Insta Spot',
       description:
         'A social media app that allows users to share and discover new places.',
       link: 'https://insta-spot-assignment.netlify.app/',
-      image: '/project-images/insta-spot.png',
+      image: '/project-images/insta-spot.PNG',
     },
     {
       title: 'Draft.dev Clone',
       description:
         'A clone of the Draft.dev website built with HTML, CSS, and JavaScript.',
       link: 'https://draftdev-clone.netlify.app/',
-      image: '/project-images/draft-dev.png',
+      image: '/project-images/draft-dev.PNG',
     },
     {
       title: 'Deezer Clone',
       description:
         'A clone of the deezer clone website built with HTML, CSS, and JavaScript.',
       link: 'https://deezer-clone-by-pixel-pioneers.netlify.app/',
-      image: '/project-images/deezer.png',
+      image: '/project-images/deezer.PNG',
     },
   ];
 
