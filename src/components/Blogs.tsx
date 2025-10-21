@@ -27,7 +27,7 @@ export default function BlogsPreview() {
             <h3 className="text-2xl font-sans font-semibold mb-2 text-foreground">
               {post.title}
             </h3>
-            <p className="text-sm text-gray-500 mb-2">
+            <p className="text-sm text-gray-600 mb-2">
               📅 {post.date} • ⏱ {post.readTime}
             </p>
             <p className="text-foreground/80 font-sans mb-4">{post.excerpt}</p>
@@ -35,7 +35,7 @@ export default function BlogsPreview() {
               href={post.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#FF6B6B] font-medium hover:underline"
+              className="text-[#E85C5C] font-medium hover:underline"
             >
               Read More →
             </Link>
@@ -46,7 +46,7 @@ export default function BlogsPreview() {
       <div className="flex justify-center mt-10">
         <Link
           href="/blogs"
-          className="px-6 py-3 rounded-xl bg-[#FF6B6B] text-white font-sans font-medium shadow-md hover:shadow-lg transition"
+          className="px-6 py-3 rounded-xl bg-[#E85C5C] text-white font-sans font-medium shadow-md hover:shadow-lg transition"
         >
           See More Blogs
         </Link>

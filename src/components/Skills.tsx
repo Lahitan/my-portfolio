@@ -51,7 +51,7 @@ export default function Skills() {
         <Link
           href="/Frontend Developer Tawakalitu Omoloja.pdf"
           download
-          className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-[#FF6B6B] text-white font-sans font-medium shadow-md hover:shadow-lg transition"
+          className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-[#E85C5C] text-white font-sans font-medium shadow-md hover:shadow-lg transition"
         >
           <FileDown className="w-5 h-5" />
           Download CV

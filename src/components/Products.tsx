@@ -32,8 +32,8 @@ export default function Products() {
             onClick={() => setCategory(cat)}
             className={`px-5 py-2 rounded-lg text-sm font-sans transition ${
               category === cat
-                ? 'bg-[#FF6B6B] text-white shadow-md'
-                : 'bg-gray-100 text-foreground hover:bg-gray-200'
+                ? 'bg-[#E85C5C] text-white shadow-md'
+                : 'bg-[#666666]/12 text-[#666666] hover:bg-[#666666]/30'
             }`}
           >
             {cat}
@@ -61,7 +61,7 @@ export default function Products() {
             <p className="text-foreground/80 text-sm mt-2 flex-grow">
               {product.description}
             </p>
-            <p className="mt-3 text-lg font-bold text-[#FF6B6B]">
+            <p className="mt-3 text-lg font-bold text-[#E85C5C]">
               {product.price}
             </p>
             <Link
@@ -80,7 +80,7 @@ export default function Products() {
         <Link
           href="https://selar.com/m/Prints_By_Tawakalt"
           target="_blank"
-          className="px-6 py-3 rounded-xl bg-[#FF6B6B] text-white font-sans font-medium shadow-md hover:shadow-lg transition"
+          className="px-6 py-3 rounded-xl bg-[#E85C5C] text-white font-sans font-medium shadow-md hover:shadow-lg transition"
         >
           See More Products
         </Link>

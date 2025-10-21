@@ -4,7 +4,7 @@ export default function PersonalDev() {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <div className="space-y-6  font-sans text-lg text-gray-700 leading-relaxed">
+    <div className="space-y-6  font-sans text-lg text-foreground leading-relaxed">
       {/* Always visible part */}
       <p>
         Growth has always been personal for me, not just something to chase, but

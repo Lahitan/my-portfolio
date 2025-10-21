@@ -4,7 +4,7 @@ export default function TechJourney() {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <div className="space-y-6  font-sans text-gray-700 leading-relaxed">
+    <div className="space-y-6  font-sans text-foreground leading-relaxed">
       {/* Always visible part */}
       <p>
         I am <strong>TAWAKALITU OMOLOJA</strong>, and I didn&apos;t stumble into

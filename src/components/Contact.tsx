@@ -65,7 +65,7 @@ export default function Contact() {
 
         <button
           type="submit"
-          className="w-full py-3 bg-[#FF6B6B] text-white font-semibold rounded-lg hover:bg-[#e55b5b] transition"
+          className="w-1/2 py-3 bg-[#E85C5C] text-white font-semibold rounded-lg hover:bg-[#e55b5b] transition cursor-pointer"
         >
           Send Message
         </button>
@@ -81,7 +81,7 @@ export default function Contact() {
             exit={{ opacity: 0, y: 30 }}
             transition={{ duration: 0.4 }}
             className={`fixed bottom-6 right-6 px-6 py-3 rounded-lg shadow-lg text-white font-medium ${
-              status === 'SUCCESS' ? 'bg-green-400' : 'bg-red-400'
+              status === 'SUCCESS' ? 'bg-green-800' : 'bg-red-800'
             }`}
           >
             {status === 'SUCCESS'

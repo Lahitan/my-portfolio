@@ -9,7 +9,7 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 max-w-3xl">
-        <h1 className="text-5xl md:text-6xl font-heading font-bold text-foreground">
+        <h1 className="text-5xl md:text-6xl font-heading font-bold text-foreground/90">
           Building Thoughtful Experiences <br /> Through Code & Content
         </h1>
 

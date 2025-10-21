@@ -1,33 +1,27 @@
 @import 'tailwindcss';
 
 :root {
-  --background: #faf9f6; /* creamy white */
-  --foreground: #4a4a4a; /* slate gray */
-
-  /* make fonts available everywhere */
-  --font-heading: var(--font-dancing);
-  --font-sans: var(--font-poppins);
+  --background: 250 249 246; /* creamy white */
+  --foreground: 31 41 55; /* gray-800, stronger contrast */
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-
-  /* map to Tailwind classes */
   --font-heading: var(--font-caveat);
   --font-sans: var(--font-poppins);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a; /* very dark gray */
-    --foreground: #ededed; /* light gray */
+    --background: 10 10 10;
+    --foreground: 245 245 245;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background-color: rgb(var(--background));
+  color: rgb(var(--foreground));
 }
 
 html {

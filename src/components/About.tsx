@@ -39,8 +39,8 @@ export default function About() {
               onClick={() => setActiveTab('tech')}
               className={`px-4 py-2 rounded-lg font-medium transition ${
                 activeTab === 'tech'
-                  ? 'bg-[#FF6B6B] text-white'
-                  : 'bg-foreground/10 text-foreground/70 hover:bg-foreground/20'
+                  ? 'bg-[#E85C5C] text-white'
+                  : 'bg-[#666666]/12 text-[#666666] hover:bg-[#666666]/30'
               }`}
             >
               Tech Journey
@@ -49,8 +49,8 @@ export default function About() {
               onClick={() => setActiveTab('personal')}
               className={`px-4 py-2 rounded-lg font-medium transition ${
                 activeTab === 'personal'
-                  ? 'bg-[#FF6B6B] text-white'
-                  : 'bg-foreground/10 text-foreground/70 hover:bg-foreground/20'
+                  ? 'bg-[#E85C5C] text-white'
+                  : 'bg-[#666666]/12 text-[#666666] hover:bg-[#666666]/30'
               }`}
             >
               Personal Development

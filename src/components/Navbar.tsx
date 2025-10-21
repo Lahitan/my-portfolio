@@ -17,7 +17,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link
           href="#hero"
-          className="text-3xl font-heading font-bold text-[#FF6B6B]"
+          className="text-3xl font-heading font-bold text-[#E85C5C]"
         >
           <h1>
             Tawakalitu<span className="text-foreground">.</span>
@@ -28,37 +28,37 @@ export default function Navbar() {
         <div className="hidden md:flex gap-6 font-sans text-foreground">
           <Link
             href="#about"
-            className=" md:text-[1.3rem] hover:text-[#FF6B6B] transform duration-300"
+            className=" md:text-[1.3rem] hover:text-[#E85C5C] transform duration-300"
           >
             About
           </Link>
           <Link
             href="#skills"
-            className=" md:text-[1.3rem] hover:text-[#FF6B6B] transform duration-300"
+            className=" md:text-[1.3rem] hover:text-[#E85C5C] transform duration-300"
           >
             Skills
           </Link>
           <Link
             href="#projects"
-            className=" md:text-[1.3rem] hover:text-[#FF6B6B] transform duration-300"
+            className=" md:text-[1.3rem] hover:text-[#E85C5C] transform duration-300"
           >
             Projects
           </Link>
           <Link
             href="/blogs"
-            className=" md:text-[1.3rem] hover:text-[#FF6B6B] transform duration-300"
+            className=" md:text-[1.3rem] hover:text-[#E85C5C] transform duration-300"
           >
             Blogs
           </Link>
           <Link
             href="#products"
-            className=" md:text-[1.3rem] hover:text-[#FF6B6B] transform duration-300"
+            className=" md:text-[1.3rem] hover:text-[#E85C5C] transform duration-300"
           >
             Products
           </Link>
           <Link
             href="#contact"
-            className=" md:text-[1.3rem] hover:text-[#FF6B6B] transform duration-300"
+            className=" md:text-[1.3rem] hover:text-[#E85C5C] transform duration-300"
           >
             Contact
           </Link>
@@ -81,35 +81,35 @@ export default function Navbar() {
           </Link>
           <Link
             href="#skills"
-            className="hover:text-[#FF6B6B]"
+            className="hover:text-[#E85C5C]"
             onClick={handleClick}
           >
             Skills
           </Link>
           <Link
             href="#projects"
-            className="hover:text-[#FF6B6B] "
+            className="hover:text-[#E85C5C] "
             onClick={handleClick}
           >
             Projects
           </Link>
           <Link
             href="/blogs"
-            className="hover:text-[#FF6B6B] "
+            className="hover:text-[#E85C5C] "
             onClick={handleClick}
           >
             Blogs
           </Link>
           <Link
             href="/products"
-            className="hover:text-[#FF6B6B]"
+            className="hover:text-[#E85C5C]"
             onClick={handleClick}
           >
             Products
           </Link>
           <Link
             href="#contact"
-            className="hover:text-[#FF6B6B] "
+            className="hover:text-[#E85C5C] "
             onClick={handleClick}
           >
             Contact
