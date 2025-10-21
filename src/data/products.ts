@@ -18,7 +18,6 @@ export const products: Product[] = [
     category: 'Books',
     link: 'https://selar.com/e3t0w19231',
   },
-
   {
     id: 2,
     title: 'Self Care Journal',
