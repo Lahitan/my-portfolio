@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     title: 'Omoloja Tawakalitu – Frontend Developer',
     description:
       'Building modern, fast, and accessible web apps using React, Tailwind CSS, and Firebase.',
-    url: 'https://yourdomain.com',
+    url: 'https://tawakalitu-omoloja-portfolio.vercel.app',
     siteName: 'Omoloja Tawakalitu Portfolio',
     images: [
       {
@@ -61,9 +61,9 @@ export const metadata: Metadata = {
       'Frontend Developer crafting beautiful, fast, and user-friendly experiences with React & Tailwind CSS.',
     images: ['/og-image.png'],
   },
-  metadataBase: new URL('https://yourdomain.com'),
+  metadataBase: new URL('https://tawakalitu-omoloja-portfolio.vercel.app'),
   alternates: {
-    canonical: 'https://yourdomain.com',
+    canonical: 'https://tawakalitu-omoloja-portfolio.vercel.app',
   },
 };
 
@@ -84,7 +84,7 @@ export default function RootLayout({
               '@context': 'https://schema.org',
               '@type': 'Person',
               name: 'Omoloja Tawakalitu Olaitan',
-              url: 'https://yourdomain.com',
+              url: 'https://tawakalitu-omoloja-portfolio.vercel.app',
               jobTitle: 'Frontend Developer',
               worksFor: {
                 '@type': 'Organization',
@@ -92,13 +92,16 @@ export default function RootLayout({
               },
               knowsAbout: ['React', 'Tailwind CSS', 'Firebase', 'SEO'],
               sameAs: [
-                'https://github.com/yourgithub',
-                'https://www.linkedin.com/in/yourlinkedin',
+                'https://github.com/Lahitan',
+                'https://www.linkedin.com/in/haruna-tawakalitu',
               ],
             }),
           }}
         />
-        <link rel="canonical" href="https://yourdomain.com" />
+        <link
+          rel="canonical"
+          href="https://tawakalitu-omoloja-portfolio.vercel.app"
+        />
       </head>
       <body
         className={`${caveat.variable} ${poppins.variable} font-sans bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-100`}

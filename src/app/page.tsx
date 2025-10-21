@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     title: 'Omoloja Tawakalitu – Frontend Developer',
     description:
       'Building beautiful, fast, and accessible websites using React & Tailwind CSS.',
-    url: 'https://yourdomain.com',
+    url: 'https://tawakalitu-omoloja-portfolio.vercel.app',
     images: ['/og-image.png'],
   },
 };
