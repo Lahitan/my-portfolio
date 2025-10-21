@@ -18,7 +18,12 @@ const CertificateShowcase = () => {
 
       {/* Wrapper for the scrolling images */}
       <div className="relative w-full overflow-hidden">
-        <div className="flex animate-scroll-x space-x-6">
+        <div
+          className="flex animate-scroll-x space-x-4 sm:space-x-6 min-w-max"
+          style={{
+            animationDuration: '40s', // smooth & long loop
+          }}
+        >
           {[...results, ...results].map((src, index) => (
             <Image
               key={index}
@@ -26,7 +31,7 @@ const CertificateShowcase = () => {
               alt={`Result ${index + 1}`}
               width={500}
               height={300}
-              className="rounded-xl shadow-md w-64 h-40 object-cover border border-gray-200"
+              className="rounded-xl shadow-md w-40 sm:w-52 md:w-64 h-28 sm:h-36 md:h-40 object-cover border border-gray-200 flex-shrink-0"
             />
           ))}
         </div>

@@ -8,6 +8,7 @@ import Project from '@/components/Project';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import CertificateShowcase from '@/components/certificateShowcase';
+import Services from '@/components/Services';
 
 import type { Metadata } from 'next';
 
@@ -48,6 +49,9 @@ export default function Home() {
       </section>
       <section id="certificates">
         <CertificateShowcase />
+      </section>
+      <section id="services">
+        <Services />
       </section>
       <section id="contact">
         <Contact />

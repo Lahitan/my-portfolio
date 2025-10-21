@@ -39,12 +39,13 @@ html {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-100%);
   }
 }
 
 .animate-scroll-x {
-  animation: scroll-x 15s linear infinite;
+  display: flex;
+  animation: scroll-x 40s linear infinite;
 }
 
 .animate-scroll-x:hover {
