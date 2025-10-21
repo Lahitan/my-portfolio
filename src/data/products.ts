@@ -53,7 +53,7 @@ export const products: Product[] = [
     description:
       'A journal for self-reflection and personal growth during Ramadan, comes with meal planner.',
     price: 'FREE',
-    image: '/product-images/ramadan.png',
+    image: '/product-images/ramadan.PNG',
     category: 'Books',
     link: 'https://selar.com/382121',
   },
