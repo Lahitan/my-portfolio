@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     template: '%s | Omoloja Tawakalitu Portfolio',
   },
   description:
-    "I'm a Frontend Developer with 3+ years of experience building fast, accessible websites using React, Tailwind CSS, and Firebase. Let's collaborate to create amazing digital experiences.",
+    "I'm an SEO expert, and a Frontend Developer with 3+ years of experience building fast, accessible websites using React, Tailwind CSS, and Firebase. Let's collaborate to create amazing digital experiences.",
   keywords: [
     'Frontend Developer',
     'React Developer',
