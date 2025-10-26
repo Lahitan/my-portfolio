@@ -2,7 +2,7 @@
 
 :root {
   --background: 250 249 246; /* creamy white */
-  --foreground: 31 41 55; /* gray-800, stronger contrast */
+  --foreground: 55, 65, 81; /* gray-800, stronger contrast */
 }
 
 @theme inline {
