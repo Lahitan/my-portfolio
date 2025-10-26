@@ -12,12 +12,12 @@
   --font-sans: var(--font-poppins);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: 10 10 10;
     --foreground: 245 245 245;
   }
-}
+} */
 
 body {
   background-color: rgb(var(--background));
